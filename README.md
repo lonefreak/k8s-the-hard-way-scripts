@@ -45,3 +45,12 @@ $ ./install-etcd.sh
 ```
 
 [Reference](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/07-bootstrapping-etcd.md)
+
+### Bootstrapping the Kubernetes Control Plane
+
+```
+$ cd control-plane/
+$ ./bootstrap-control-plane.sh
+```
+
+[Reference](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md)
