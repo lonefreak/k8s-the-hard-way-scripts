@@ -54,7 +54,7 @@ if [ $? -eq 0 ]; then
 fi
 
 # Generate the kubernetes-api server cert
-KUBERNETES_PUBLIC_ADDRESS=$(gcloud compute addresses describe kubernetes \
+KUBERNETES_PUBLIC_ADDRESS=$(gcloud compute addresses describe kubernetes-the-hard-way \
   --region $(gcloud config get-value compute/region) \
   --format 'value(address)')
 

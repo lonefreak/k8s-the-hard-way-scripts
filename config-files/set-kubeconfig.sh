@@ -1,8 +1,8 @@
 #!/bin/bash
 
-CLUSTER=$1
+CLUSTER=kubernetes-the-hard-way
 CERTIFICATES_PATH="../ca-tls/certificates"
-KUBERNETES_PUBLIC_ADDRESS=$(gcloud compute addresses describe kubernetes \
+KUBERNETES_PUBLIC_ADDRESS=$(gcloud compute addresses describe kubernetes-the-hard-way \
     --region $(gcloud config get-value compute/region) \
     --format 'value(address)')
 
