@@ -1,3 +1,9 @@
 02-ca-tls/certificates/*
 !02-ca-tls/certificates/.keep
+03-config-files/kubeconfig/*
+03-config-files/.kubeconfig/*
+!03-config-files/kubeconfig/.keep
+04-data-encryption/encryption-config/*
+04-data-encryption/.encryption-config/*
+!04-data-encryption/encryption-config/.keep
 
